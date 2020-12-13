@@ -4,6 +4,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Homepage from './pages/homepage/Homepage';
 import About from './pages/about/About';
 import Pricing from './pages/pricing/Pricing';
+import Contact from './pages/contact/Contact';
 import Navbar from './shared/components/Navbar';
 import Footer from './shared/components/Footer';
 
@@ -16,6 +17,7 @@ const App = () => {
           <Route component={Homepage} path='/' exact />
           <Route component={About} path='/about' />
           <Route component={Pricing} path='/pricing' />
+          <Route component={Contact} path='/contact' />
         </Switch>
         <Footer />
       </div>

@@ -24,7 +24,7 @@ const Navbar = () => {
           </NavLink>
           </li>
         <li className="pl-4">
-          <NavLink to="/" className="hover:text-black hover:line-through active:text-black">
+          <NavLink to="/contact" className="hover:text-black hover:line-through active:text-black">
             CONTACT
           </NavLink>
         </li>
