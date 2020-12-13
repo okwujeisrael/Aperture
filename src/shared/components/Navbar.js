@@ -14,7 +14,7 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li className="px-4">
-          <NavLink to="/" className="hover:text-black hover:line-through active:text-black">
+          <NavLink to="/about" className="hover:text-black hover:line-through active:text-black">
             ABOUT
           </NavLink>
           </li>
@@ -35,7 +35,7 @@ const Navbar = () => {
         </li>
       </ul>
       <Link to="/">
-        <h1 className="text-3xl dosis-bold">APERTURE</h1>
+        <h1 className="text-3xl dosis-bold hover:text-black">APERTURE</h1>
         <p className="text-sm">FOND MEMORIES</p>
       </Link>
     </nav>
