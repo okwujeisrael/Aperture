@@ -19,12 +19,7 @@ const Navbar = () => {
           </NavLink>
           </li>
         <li className="px-4">
-          <NavLink to="/" className="hover:text-black hover:line-through active:text-black">
-            PHOTOGRAPHERS
-          </NavLink>
-        </li>
-        <li className="px-4">
-          <NavLink to="/" className="hover:text-black hover:line-through active:text-black">
+          <NavLink to="/pricing" className="hover:text-black hover:line-through active:text-black">
             PRICING
           </NavLink>
           </li>

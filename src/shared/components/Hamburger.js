@@ -31,12 +31,7 @@ const Hamburger = () => {
           </NavLink>
           </li>
           <li className="py-2">
-            <NavLink to="/" className="hover:text-black hover:line-through active:text-black">
-              PHOTOGRAPHERS
-            </NavLink>
-          </li>
-          <li className="py-2">
-            <NavLink to="/" className="hover:text-black hover:line-through active:text-black">
+            <NavLink to="/pricing" className="hover:text-black hover:line-through active:text-black">
               PRICING
             </NavLink>
           </li>
