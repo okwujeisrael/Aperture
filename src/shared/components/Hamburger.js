@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { NavLink } from "react-router-dom";
 
 const Hamburger = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,11 +20,31 @@ const Hamburger = () => {
 
       {isOpen && (
         <ul className="text-center list-none pb-7">
-          <li className="py-2">HOME</li>
-          <li className="py-2">ABOUT</li>
-          <li className="py-2">PHOTOGRAPHERS</li>
-          <li className="py-2">PRICING</li>
-          <li className="py-2">CONTACT</li>
+          <li className="py-2">
+          <NavLink to="/" className="hover:text-black hover:line-through active:text-black active">
+            HOME
+          </NavLink>
+          </li>
+          <li className="py-2">
+          <NavLink to="/" className="hover:text-black hover:line-through active:text-black">
+            ABOUT
+          </NavLink>
+          </li>
+          <li className="py-2">
+            <NavLink to="/" className="hover:text-black hover:line-through active:text-black">
+              PHOTOGRAPHERS
+            </NavLink>
+          </li>
+          <li className="py-2">
+            <NavLink to="/" className="hover:text-black hover:line-through active:text-black">
+              PRICING
+            </NavLink>
+          </li>
+          <li className="py-2">
+            <NavLink to="/" className="hover:text-black hover:line-through active:text-black">
+              CONTACT
+            </NavLink>
+          </li>
         </ul>
       )}
     </div>

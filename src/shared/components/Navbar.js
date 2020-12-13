@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink, Link } from "react-router-dom";
 
 import Hamburger from './Hamburger';
 
@@ -7,14 +8,36 @@ const Navbar = () => {
     <nav className="bg-purple-400 text-white dosis-normal py-10 text-center">
       <Hamburger />
       <ul className="hidden md:flex justify-center list-none pb-7">
-        <li className="pr-4">HOME</li>
-        <li className="px-4">ABOUT</li>
-        <li className="px-4">PHOTOGRAPHERS</li>
-        <li className="px-4">PRICING</li>
-        <li className="pl-4">CONTACT</li>
+        <li className="pr-4">
+          <NavLink to="/" className="hover:text-black hover:line-through active:text-black active">
+            HOME
+          </NavLink>
+        </li>
+        <li className="px-4">
+          <NavLink to="/" className="hover:text-black hover:line-through active:text-black">
+            ABOUT
+          </NavLink>
+          </li>
+        <li className="px-4">
+          <NavLink to="/" className="hover:text-black hover:line-through active:text-black">
+            PHOTOGRAPHERS
+          </NavLink>
+        </li>
+        <li className="px-4">
+          <NavLink to="/" className="hover:text-black hover:line-through active:text-black">
+            PRICING
+          </NavLink>
+          </li>
+        <li className="pl-4">
+          <NavLink to="/" className="hover:text-black hover:line-through active:text-black">
+            CONTACT
+          </NavLink>
+        </li>
       </ul>
-      <a href="google.com" className="text-3xl dosis-bold">APERTURE</a>
-      <p className="text-sm">FOND MEMORIES</p>
+      <Link to="/">
+        <h1 className="text-3xl dosis-bold">APERTURE</h1>
+        <p className="text-sm">FOND MEMORIES</p>
+      </Link>
     </nav>
   )
 }

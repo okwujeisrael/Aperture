@@ -10,3 +10,11 @@
   font-family: 'Dosis', sans-serif;
   font-weight: 400;
 }
+
+.gray-img {
+  filter: grayscale(100%);
+}
+
+.gray-img:hover {
+  filter: grayscale(0%);
+}

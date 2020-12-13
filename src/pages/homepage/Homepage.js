@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+
+import Photogrid from '../../shared/components/Photogrid';
 
 const Homepage = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Photogrid />
+    </>
   )
 }
 
