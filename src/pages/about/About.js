@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <section className="bg-white text-center dosis-normal">
-      <h1 className="pt-24 pb-8 dosis-bold text-4xl">ABOUT</h1>
+      <h1 className="pt-24 pb-8 dosis-bold text-5xl">ABOUT</h1>
 
       <div className="block text-center lg:flex max-w-5xl mx-auto lg:space-x-11 mb-28">
         <img src="/about/about.jpg" alt="studio-img" className="w-1/2 inline-block" />
