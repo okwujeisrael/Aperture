@@ -4,11 +4,11 @@ import Modal from './components/Modal';
 import Photogrid from '../../shared/components/Photogrid';
 
 const Homepage = () => {
-  const [selectedPhoto, setSelectedPhoto] = useState('3');
+  const [selectedPhoto, setSelectedPhoto] = useState(null);
   const [ isModalOpen, setIsModalOpen ] = useState(null);
 
   const handleClick = (e) => {
-    setSelectedPhoto(e.target.name);
+    setSelectedPhoto(e.target.currentSrc);
     setIsModalOpen(true);
   }
 
