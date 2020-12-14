@@ -31,7 +31,7 @@ const Navbar = () => {
       </ul>
       <Link to="/">
         <h1 className="text-3xl dosis-bold hover:text-black">APERTURE</h1>
-        <p className="text-sm">FOND MEMORIES</p>
+        <p className="text-sm">CREATING FOND MEMORIES</p>
       </Link>
     </nav>
   )

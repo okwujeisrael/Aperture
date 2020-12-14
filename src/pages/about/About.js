@@ -9,12 +9,14 @@ const About = () => {
         <img src="/about/about.jpg" alt="studio-img" className="w-1/2 inline-block" />
         <div className="text-left w-1/2 mx-auto">
           <h4 className="text-blue-500 pt-16">WHO WE ARE</h4>
-          <h2 className="dosis-bold text-2xl max-w-96 tracking-wider animate__animated animate__flipInY">SIMPLY DUMMY TEXT OF THE PRINTING INDUSTRY.</h2>
-          <p className="py-8 text-gray-400 animate__animated animate__flipInY">Lorem ipsum dolor sit amet Neque porro quisquam est qui dolorem Lorem int ipsum dolor sit amet when an unknown printer took a galley of type.Vivamus id tempor felis.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem ipsum dolor sit amet Neque porro quisquam est qui dolorem Lorem int ipsum dolor sit amet.</p>
+          <h2 className="dosis-bold text-2xl max-w-96 tracking-wider animate__animated animate__flipInY">
+            WE PRODUCE HIGH QUALITY DIGITAL AND PRINT PHOTOGRAPHS.
+          </h2>
+          <p className="py-8 text-gray-400 animate__animated animate__flipInY">Ours is the finest gallery of photographs and prints, ranging from portraits to still-life photograph. We bring produce magic through the lenses of our cameras. Our work has been featured in a variety of high profile magazines and online platforms, some of which include Elle, Marie Claire and Menshealth.</p>
           <div className="flex space-x-5">
             <img src="/about/jack.jpg" alt="jack-wilcox" className="w-28 h-28 rounded-full border-4 border-gray-300 inline-block"/>
             <div>
-              <p className="dosis-bold font-bold pt-2">Jack Wilcox</p>
+              <p className="dosis-bold font-bold pt-4">Jack Wilcox</p>
               <p className="text-sm text-gray-400">Photographer</p>
             </div>
           </div>
