@@ -5,11 +5,11 @@ import Hamburger from './Hamburger';
 
 const Navbar = () => {
   return (
-    <nav className="bg-purple-400 text-white dosis-normal py-10 text-center">
+    <nav className="bg-purple-400 text-xl text-white dosis-normal py-10 text-center">
       <Hamburger />
       <ul className="hidden md:flex justify-center list-none pb-7">
         <li className="pr-4">
-          <NavLink to="/" className="hover:text-black hover:line-through active:text-black active">
+          <NavLink to="/" className="hover:text-black hover:line-through active:text-black">
             HOME
           </NavLink>
         </li>

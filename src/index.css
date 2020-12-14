@@ -18,3 +18,7 @@
 .gray-img:hover {
   filter: grayscale(0%);
 }
+
+.modal-background {
+  background: rgba(0, 0, 0, 0.6); 
+}

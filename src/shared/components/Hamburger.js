@@ -19,7 +19,7 @@ const Hamburger = () => {
       </button>
 
       {isOpen && (
-        <ul className="text-center list-none pb-7">
+        <ul className="text-center text-xl list-none pt-4 pb-7 animate__animated animate__slideInDown">
           <li className="py-2">
           <NavLink to="/" className="hover:text-black hover:line-through active:text-black active">
             HOME
