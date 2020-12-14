@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Aperture
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aperture. A product website created in React, using hooks.
+
+### Example
+<img src="public/giffy.gif">
 
 ## Available Scripts
 
