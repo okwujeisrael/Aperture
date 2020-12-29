@@ -16,7 +16,8 @@ const Form = () => {
     })
   }
 
-  const handleSubmit = () => {
+  const handleSubmit = (event) => {
+    event.preventDefault();
     if (userDetails.name && userDetails.email && userDetails.message) {
       setAlert(true);
     }
@@ -51,11 +52,11 @@ const Form = () => {
           <label htmlFor="message" name="messsage">Message</label>
         </div>
         <div className="mb-8">
-          <textarea name="message" id="message" cols="30" rows="10" value={userDetails.message} onChange={formDetails} className="w-full h-20 px-4"></textarea>
+          <textarea name="message" id="message" cols="30" rows="10" value={userDetails.message} onChange={formDetails} className="w-full h-20 p-4"></textarea>
         </div>
         <button type="submit" className="w-full h-16 block bg-gray-700 text-white dosis-bold tracking-wider hover:bg-purple-400" onClick={handleSubmit}>SUBMIT</button>
         {alert && (
-          <p className="text-xl text-green-700 pt-4">Message sent! We'll get back to you soon.</p>
+          <p className="text-xl bg-green-700 text-white mt-4 p-2">Message sent! We'll get back to you soon.</p>
         )}
       </form>
     </div>
